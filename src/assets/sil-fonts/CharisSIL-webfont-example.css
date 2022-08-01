@@ -31,11 +31,4 @@ Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
 }
 
 /* set body to use Charis SIL */
-body {
-  font-family: CharisSILW, sans-serif;
-    /* fall back to sans serif so that it's really obvious if the fonts don't load */
-}
-/* remove bold styling from heading */
-h1 {
-  font-weight: normal;	
-}
+
