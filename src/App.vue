@@ -34,7 +34,7 @@ export default {
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
     </div>
-    <div class="[margin-left:1em]">
+    <div class="[margin-left:1em] [margin-right:1em]">
       <div class="[font-family:var(--serif)] [opacity:0.7] text-2xl">
         Introduction
       </div>
