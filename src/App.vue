@@ -48,7 +48,7 @@ export default {
       <div class="text-2xl [opacity:0.7] [font-family:var(--serif)] [margin-top:5%]">
         References & Citations
       </div>
-      <div class="text-lg">
+      <div class="text-lg [width:100%]">
         <div id="ref1">
           <span class="text-sky-500">
             <a href="#startRef">[1]</a>
