@@ -30,9 +30,9 @@ export default {
   </div>
   
   <div class="flex text-black [flex-direction:column] [margin:4.5%] lg:[margin:2%] text-xl">
-    <div class="text-6xl [padding:0.5em] [width:100%] [flex-direction:column] flex lg:text-8xl [font-weight:800] [opacity:0.6]">
+    <div class="text-6xl [padding:0.5em] lg:[width:100%] [flex-direction:column] flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
-      <div class="flex"><small class="text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
+      <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
     </div>
     <div class="[margin-left:1em]">
       <div class="[font-family:var(--serif)] [opacity:0.7] text-2xl">
@@ -70,7 +70,7 @@ export default {
       </div>
       <div class="flex justify-center [text-align:center] [flex-direction:column] [opacity:0.6] text-base [margin-top:5%]">
         &copy; 2022 Francie Jiang Properties Foundation (FJPF). All rights reserved. 
-        <div>Built with <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://vuejs.org">Vue.js</a>.</div>
+        <div>Built with <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://vuejs.org">Vue.js</a>. Deployed at <a href="https://vercel.app">Vercel</a>. Used <a href="https://sil.org">Charis SIL font by SIL International for IPA display</a></div>
       </div>
     </div>
 

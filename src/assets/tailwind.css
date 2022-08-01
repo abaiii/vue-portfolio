@@ -655,16 +655,16 @@ video {
   padding: 0.5em;
 }
 
-.\[width\:100\%\] {
-  width: 100%;
-}
-
 .\[font-weight\:800\] {
   font-weight: 800;
 }
 
 .\[opacity\:0\.6\] {
   opacity: 0.6;
+}
+
+.\[font-family\:CharisSILW\] {
+  font-family: CharisSILW;
 }
 
 .\[margin-left\:0\.1em\] {
@@ -737,6 +737,10 @@ video {
 
   .lg\:\[margin\:2\%\] {
     margin: 2%;
+  }
+
+  .lg\:\[width\:100\%\] {
+    width: 100%;
   }
 
   .lg\:\[display\:block\] {
