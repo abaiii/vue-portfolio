@@ -567,6 +567,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -583,6 +587,14 @@ video {
   width: 100%;
 }
 
+.w-4\/6 {
+  width: 66.666667%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -593,6 +605,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .bg-neutral-100 {

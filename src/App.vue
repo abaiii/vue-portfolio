@@ -30,12 +30,12 @@ export default {
   ></Navbar>
   </div>
   <div class="justify-center items-center flex">
-    <div class="flex text-black flex-col m-4 lg:m-2 text-xl w-5/6 items-center justify-center">
+    <div class="flex text-black flex-col m-4 lg:m-2 text-xl items-center justify-center">
     <div class="text-4xl md:text-6xl p-1 lg:w-full flex-col flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
     </div>
-    <div class="ml-2 mr-2">
+    <div class="w-5/6">
       <div class="[font-family:var(--serif)] [opacity:0.7] text-2xl">
         Introduction
       </div>
@@ -49,7 +49,7 @@ export default {
       <div class="text-2xl [opacity:0.7] [font-family:var(--serif)] mt-2">
         References & Citations
       </div>
-      <div class="text-lg w-5/6 [text-overflow:ellipsis]">
+      <div class="text-lg overflow-hidden">
         <div id="ref1">
           <span class="text-sky-500">
             <a href="#startRef">[1]</a>
