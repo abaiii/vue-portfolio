@@ -20,7 +20,8 @@ export default {
 
 <template>
 
-  <div class="flex lg:justify-end p-2 justify-center [letter-spacing:1em] lg:[letter-spacing:0.05em] text-2xl lg:text-lg lg:[font-family:var(--display)] lg:[text-transform:uppercase]">
+  <div class="flex w-full flex-col">
+    <div class="flex lg:justify-end p-2 justify-center [letter-spacing:1em] lg:[letter-spacing:0.05em] text-2xl lg:text-lg lg:[font-family:var(--display)] lg:[text-transform:uppercase]">
     <Navbar
     v-for="itm in navItems"
     :href="itm.href"
@@ -28,8 +29,8 @@ export default {
     :fa_icons="itm.fa_icons"
   ></Navbar>
   </div>
-  
-  <div class="flex text-black flex-col m-4 lg:m-2 text-xl w-5/6">
+  <div class="justify-center items-center flex">
+    <div class="flex text-black flex-col m-4 lg:m-2 text-xl w-5/6 items-center justify-center">
     <div class="text-4xl md:text-6xl p-1 lg:w-full flex-col flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
@@ -75,5 +76,10 @@ export default {
     </div>
 
   </div>
+
+  </div>
+  
+  </div>
+  
 
 </template>
