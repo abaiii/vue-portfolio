@@ -20,7 +20,7 @@ export default {
 
 <template>
 
-  <div class="flex lg:justify-end [padding:1em] justify-center [letter-spacing:1em] lg:[letter-spacing:0.05em] text-2xl lg:text-lg lg:[font-family:var(--display)] lg:[text-transform:uppercase]">
+  <div class="flex lg:justify-end p-2 justify-center [letter-spacing:1em] lg:[letter-spacing:0.05em] text-2xl lg:text-lg lg:[font-family:var(--display)] lg:[text-transform:uppercase]">
     <Navbar
     v-for="itm in navItems"
     :href="itm.href"
@@ -29,12 +29,12 @@ export default {
   ></Navbar>
   </div>
   
-  <div class="flex text-black [flex-direction:column] [margin:4.5%] lg:[margin:2%] text-xl w-5/6">
-    <div class="text-6xl [padding:0.5em] lg:[width:100%] [flex-direction:column] flex lg:text-8xl [font-weight:800] [opacity:0.6]">
+  <div class="flex text-black flex-col m-4 lg:m-2 text-xl w-5/6">
+    <div class="text-4xl md:text-6xl p-1 lg:w-full flex-col flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
     </div>
-    <div class="[margin-left:1em] [margin-right:1em]">
+    <div class="ml-2 mr-2">
       <div class="[font-family:var(--serif)] [opacity:0.7] text-2xl">
         Introduction
       </div>
@@ -45,10 +45,10 @@ export default {
         She is now studying <a href="https://vuejs.org">Vue.js</a> and other frontend frameworks. <br> <br>
         She is not satisfied with her hitherto life, therefore, she has a strong desire to study in a university, which provides a libre environment for her.
       </div>
-      <div class="text-2xl [opacity:0.7] [font-family:var(--serif)] [margin-top:5%]">
+      <div class="text-2xl [opacity:0.7] [font-family:var(--serif)] mt-2">
         References & Citations
       </div>
-      <div class="text-lg whitespace-nowrap [text-overflow:ellipsis] w-2/3">
+      <div class="text-lg  [text-overflow:ellipsis]">
         <div id="ref1">
           <span class="text-sky-500">
             <a href="#startRef">[1]</a>
@@ -68,7 +68,7 @@ export default {
           . Wang, Q. and Ge, S., 2020. How One Obscure Word Captures Urban China’s Unhappiness. [online] #SixthTone. Available at: &lt;<a class="text-sky-500" href="https://www.sixthtone.com/news/1006391/how-one-obscure-word-captures-urban-chinas-unhappiness">https://www.sixthtone.com/news/1006391/how-one-obscure-word-captures-urban-chinas-unhappiness</a>&gt; [Accessed 1 August 2022].
         </div>
       </div>
-      <div class="flex justify-center [text-align:center] [flex-direction:column] [opacity:0.6] text-base [margin-top:5%]">
+      <div class="flex justify-center text-center flex-col [opacity:0.6] text-base mt-2">
         &copy; 2022 Francie Jiang Properties Foundation (FJPF). All rights reserved. 
         <div>Built with <a href="https://tailwindcss.com">Tailwind CSS</a> and <a href="https://vuejs.org">Vue.js</a>. Deployed at <a href="https://vercel.app">Vercel</a>. Used <a href="https://sil.org">Charis SIL font by SIL International for IPA display</a></div>
       </div>
