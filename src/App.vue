@@ -29,7 +29,7 @@ export default {
   ></Navbar>
   </div>
   
-  <div class="flex text-black [flex-direction:column] [margin:4.5%] lg:[margin:2%] text-xl w-5/6 lg:w-full">
+  <div class="flex text-black [flex-direction:column] [margin:4.5%] lg:[margin:2%] text-xl w-5/6">
     <div class="text-6xl [padding:0.5em] lg:[width:100%] [flex-direction:column] flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
