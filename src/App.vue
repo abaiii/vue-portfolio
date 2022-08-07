@@ -31,7 +31,7 @@ export default {
   </div>
   <div class="justify-center items-center flex">
     <div class="flex text-black flex-col m-4 lg:m-2 text-xl items-center justify-center">
-    <div class="text-4xl md:text-6xl p-1 lg:w-full flex-col flex lg:text-8xl [font-weight:800] [opacity:0.6]">
+    <div class="text-4xl md:text-6xl p-1 flex-col flex lg:text-8xl [font-weight:800] [opacity:0.6]">
       Francie Jiang
       <div class="flex"><small class="[font-family:CharisSILW] text-xl align-top [margin-left:0.1em] [opacity:0.6]">(/'frænsi: tɕi:aŋ/)</small></div>
     </div>
